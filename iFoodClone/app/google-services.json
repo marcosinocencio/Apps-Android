@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "867986925854",
+    "firebase_url": "https://ifood-clone-60971.firebaseio.com",
+    "project_id": "ifood-clone-60971",
+    "storage_bucket": "ifood-clone-60971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867986925854:android:09f15b1aa25958c468010f",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.ifoodclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867986925854-ri7vopm0mvrnqbei88gtrn1v0evn0p6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursoandroid.ifoodclone",
+            "certificate_hash": "797f5c8d630f3a70764467c25269dea6552c86b7"
+          }
+        },
+        {
+          "client_id": "867986925854-uldk0htihu0m3qksk6j51ecefn8rk4oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMfQcZzl7X-eQbLwhVwJVDgE3sj2MpMKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867986925854-uldk0htihu0m3qksk6j51ecefn8rk4oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

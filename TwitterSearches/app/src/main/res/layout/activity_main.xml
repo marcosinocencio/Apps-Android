@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/queryEditText"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:autofillHints=""
+        android:gravity="fill_horizontal"
+        android:hint="@string/queryPrompt"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        tools:targetApi="o" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/tagEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom|fill_horizontal"
+            android:hint="@string/tagPrompt"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:autofillHints="" tools:targetApi="o"/>
+
+        <ImageButton
+            android:id="@+id/saveButton"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_menu_save"
+            android:contentDescription="@string/saveDescription"
+            android:visibility="visible"
+            app:srcCompat="@android:drawable/ic_menu_save"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="694dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="fill"
+        android:orientation="vertical"
+        android:paddingLeft="2dp"
+        android:paddingTop="16dp"
+        android:paddingRight="2dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:text="@string/taggedSearches"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="411dp"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_marginTop="@dimen/tagged_searches_padding"
+            android:layout_marginBottom="@dimen/tagged_searches_padding"
+            android:layout_weight="1"
+            android:paddingTop="16dp" />
+    </LinearLayout>
+
+</android.widget.GridLayout>

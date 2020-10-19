@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Buscas Twitter "</string>
+    <string name="queryPrompt">Entre com a busca do Twitter aqui</string>
+    <string name="saveDescription">Toque neste botão para colocar uma tag na busca</string>
+    <string name="tagPrompt">Coloque tag na busca</string>
+    <string name="taggedSearches">Buscas com tag</string>
+    <string name="OK">OK</string>
+    <string name="missingMessage">Entre com a busca Twitter e a tag</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirmMessage">Você tem certeza que quer deletar a busca %s?</string>
+    <string name="delete">Deletar</string>
+    <string name="shareEditDeleteTitle">Compartilhar, Editar ou Deletar a busca com tag como %s</string>
+    <string name="shareMessage">Cheque os resultados desta busca do Twitter %s</string>
+    <string name="shareSearch">Compartilhar Busca para:</string>
+    <string name="shareSubject">Busca Twitter que pode interessar you</string>
+    <string name="searchURL">http://mobile.twitter.com/search/</string>
+</resources>

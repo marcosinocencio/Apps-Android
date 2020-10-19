@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="t2">t2</string>
+    <string name="t">t</string>
+    <string name="item">Item</string>
+    <string name="item_2">Item 2</string>
+    <string name="btn_teste">Teste</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
