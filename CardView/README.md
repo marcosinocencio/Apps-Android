@@ -1,1 +1,1 @@
-# App criado para treinar layout estilo cards
+# App criado para treinar layout estilo card
